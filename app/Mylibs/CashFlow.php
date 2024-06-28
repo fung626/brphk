@@ -25,7 +25,9 @@ class CashFlow
                 ->where('company_bank_account_id', $account->id)
                 ->orderBy('updated_at', 'DESC')
                 ->first();
-            $sum += $result->balance;
+            if ($result && $result->balance) {
+                $sum += $result->balance;
+            }
         }
         // dd($result->toArray());
         return $sum;
