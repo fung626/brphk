@@ -1,0 +1,82 @@
+// Here you can add other styles
+
+/*
+.card-header > .c-icon:first-child {
+  margin-right: 0.1rem;
+  margin-top: 0.1rem;
+  vertical-align: top;
+  width: 1.2rem;
+  height: 1.2rem;
+  font-size: 1.2rem;
+}
+*/
+
+.v-application {
+    font-family: "Nunito", sans-serif !important;
+    .title {
+        font-family: "Nunito", sans-serif !important;
+    }
+}
+
+.theme--light.v-application {
+    background: #f8fafc !important;
+}
+
+.card-header:not(.content-center) > .c-icon:first-child {
+    margin-right: 0.1rem;
+    margin-top: 0.1rem;
+    vertical-align: top;
+    width: 1.2rem;
+    height: 1.2rem;
+    font-size: 1.2rem;
+}
+
+.click-file {
+    cursor: pointer;
+}
+
+#cropp-img-img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+// cuetify coreui conflict
+
+.btn-primary,
+.btn-success,
+.btn-info,
+.btn-warning,
+.btn-danger,
+.nav-link.active {
+    color: #fff !important;
+}
+
+.btn-link,
+.nav-link {
+    color: #321fdb !important;
+}
+
+// .form-control {
+//     border-radius: 0.25rem !important;
+// }
+
+// @import "~ag-grid-community/src/styles/ag-grid.scss";
+// @import "~ag-grid-community/src/styles/ag-theme-alpine/sass/ag-theme-alpine-mixin";
+// @import "~ag-grid-community/dist/styles/ag-theme-material.css";
+
+.ag-theme-material,
+.ag-header-cell-label,
+.ag-cell {
+    font-family: "Nunito", sans-serif !important;
+}
+
+.v-text-field >>> input {
+    font-size: 0.8em;
+    font-weight: 100;
+}
+.v-text-field >>> label {
+    font-size: 0.8em;
+}
+.v-text-field >>> button {
+    font-size: 0.8em;
+}
